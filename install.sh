@@ -1,7 +1,10 @@
 #!/bin/bash
 
+OLDPWD=$(pwd)
 cd /var/lib/dokku/plugins
-for command in `cat ./plugins.txt`
-do
-  `$command`
-done
+
+while read c; do
+  $($c)
+done < $OLDPWD/plugins.txt
+
+cd $OLDPWD
