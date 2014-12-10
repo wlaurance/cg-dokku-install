@@ -1,0 +1,2 @@
+git clone https://github.com/scottatron/dokku-rebuild rebuild
+git clone https://github.com/dyson/dokku-persistent-storage.git persistent-storage
