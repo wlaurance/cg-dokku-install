@@ -1,3 +1,4 @@
 git clone https://github.com/scottatron/dokku-rebuild rebuild
 git clone https://github.com/dyson/dokku-persistent-storage.git persistent-storage
 git clone https://github.com/ohardy/dokku-volume volume
+git clone https://github.com/Kloadut/dokku-pg-plugin postgresql
